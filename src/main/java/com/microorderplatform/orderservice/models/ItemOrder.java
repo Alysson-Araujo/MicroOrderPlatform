@@ -1,0 +1,22 @@
+package com.microorderplatform.orderservice.models;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.math.BigDecimal;
+import java.util.UUID;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class ItemOrder {
+
+    private String productId;
+    private int quantity;
+    private BigDecimal unitPrice;
+
+}
